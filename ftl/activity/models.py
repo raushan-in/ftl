@@ -21,12 +21,16 @@ class Member(models.Model):
     def hash_id(self):
         return hashids.encode(self.user.pk)
 
+    @property
+    def activity_periods(self):
+        return self.activity.all()
+
 
 class ActivityPeriod(models.Model):
     member = models.ForeignKey(Member, on_delete=models.CASCADE,
                                related_name="activity")
-    start_time = models.TimeField(auto_now=False, auto_now_add=False)
-    end_time = models.TimeField(auto_now=False, auto_now_add=False)
+    start_time = models.DateTimeField(auto_now=False, auto_now_add=False)
+    end_time = models.DateTimeField(auto_now=False, auto_now_add=False)
 
     class Meta:
         verbose_name_plural = 'Activities'
