@@ -1,0 +1,5 @@
+Django==3.0.6
+djangorestframework==3.11.0
+drf-yasg==1.17.1
+pyparsing==2.4.7
+requests==2.23.0

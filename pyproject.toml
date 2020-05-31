@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "FullThrottle"
+version = "0.1.0"
+description = "An assignment by FullThrottle Lab"
+authors = ["raushan"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^3.0.6"
+drf-yasg = "^1.17.1"
+djangorestframework = "^3.11.0"
+hashids = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
