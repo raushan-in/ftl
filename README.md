@@ -32,3 +32,5 @@ python manage.py runserver
 ```
 - open http://127.0.0.1:8000/ in a browser.
 - And, done! Hopefully, it should work now. If not, contact me at raushan.br.in@gmail.com.
+
+- Hosted on http://ec2-3-16-156-112.us-east-2.compute.amazonaws.com/
