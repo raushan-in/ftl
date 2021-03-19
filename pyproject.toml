@@ -8,7 +8,7 @@ authors = ["raushan"]
 python = "^3.7"
 django = "^3.0.7"
 drf-yasg = "^1.17.1"
-djangorestframework = "^3.11.0"
+djangorestframework = "^3.11.2"
 hashids = "^1.2.0"
 gunicorn = "^20.0.4"
 
