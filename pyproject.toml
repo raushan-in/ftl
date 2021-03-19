@@ -6,7 +6,7 @@ authors = ["raushan"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-django = "^3.0.7"
+django = "^3.1.6"
 drf-yasg = "^1.17.1"
 djangorestframework = "^3.11.0"
 hashids = "^1.2.0"
